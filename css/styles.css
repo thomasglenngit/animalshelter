@@ -1,6 +1,40 @@
-.profile {
-  margin: 4px;
-  border: 4px;
-  padding: 2px;
-  float: center;
+h2 {
+  text-align: center;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+body {
+  background-color: seagreen;
+  color: antiquewhite;
+  font-family: monospace;
+  font-size: 20px
+}
+
+div {
+  
+  margin: 20px;
+  border: 8px solid lightgreen;
+  padding: 20px;
+  background-color: moccasin;
+  float: left;
+  width: 220px;
+  border-image: 2px solid black;
+
+}
+
+
+div p {
+
+  color: blue
+
+}
+
+div p img {
+  border: 5px solid black;
+  margin: 3px
+  img: center;
 }

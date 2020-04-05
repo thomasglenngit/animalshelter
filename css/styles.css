@@ -14,27 +14,40 @@ body {
   font-size: 20px
 }
 
-div {
-  
-  margin: 20px;
-  border: 8px solid lightgreen;
-  padding: 20px;
-  background-color: moccasin;
-  float: left;
-  width: 220px;
-  border-image: 2px solid black;
+.intro {
+  margin: 30px;
 
 }
 
-
-div p {
-
+.profile {
+  
+  margin: 20px;
+  border: 8px solid lightgreen;
+  padding: 5px;
+  background-color: moccasin;
+  float: left;
+  width: 225px;
+  border-image: 2px solid black;
   color: blue
-
 }
 
 div p img {
   border: 5px solid black;
-  margin: 3px
-  img: center;
+  margin: 3px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  
+}
+
+@media screen and (min-width: 700px) {
+  .intro {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
 }

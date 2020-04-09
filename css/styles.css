@@ -36,18 +36,3 @@ div p img {
   margin: 3px;
   padding: 5px;
 }
-
-@media screen and (max-width: 600px) {
-  body {
-    background-color: blue;
-  }
-  
-}
-
-@media screen and (min-width: 700px) {
-  .intro {
-    width: 300px;
-    float: left;
-    padding: 20px;
-  }
-}
